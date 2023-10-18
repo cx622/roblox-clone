@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html {
+    background-color: #232527;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    /* font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif; */
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+
+}
+#header {
+    height: 33px;
+    width: 100vw;
+    background-color: #191B1D;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4px;
+    position: fixed;
+    top:0;
+    left:-2px;
+
+}
+
+#header div:nth-child(1) {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 50vw; */
+
+}
+#endpart {
+    /* display: flex; */
+    height: 100%;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+#header div:nth-child(2) {
+    display: flex;
+    height: 100%;
+    width: auto;
+    justify-content: space-between;
+}
+
+#header div:nth-child(2) div:first-child {
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+#header div:nth-child(2) div.right {
+    display: flex;
+    height: 100%;
+    width: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Navigation */
+ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+
+}
+.headerLinks {
+    margin-right: 3.2vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#searchbar {
+    background-color: #0A0B0C;
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 0.5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 20vw;
+    opacity: 1;
+}
+#pfp {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 50%;
+}
+#header div:nth-child(2) .left span{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: normal;
+}
+#header div:nth-child(2)  * {
+    margin: 0 2.5px;
+}
+#icon-robux {
+    height: 100%;
+    width: auto;
+}
+#settings {
+    height: 100%;
+    width: auto;
+}
+#searchbar p {
+    font-weight: 400;
+    color:#6c6f72;
+}
+#main {
+    padding: 0 14vw;
+    padding-top: 47px;
+    margin-bottom: 10vh;
+}
+#main div:first-child() {
+    width: 100%;
+}
+#main div:first-child() h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+#heading {
+    /* font-size: 32px; */
+    font-weight: 800;
+    line-height: 45px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#friendslist div {
+    margin-right: 1vw;
+}
+#friendslist div p {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -5px;
+}
+#friendslist div img {
+    height: 90px;
+    width: 90px;
+    border: 1px solid #5A5B5A;
+    border-radius: 50%;
+    margin-top: 0;
+    background-color: #DDDDDD;
+}
+#gameslist div:first-child{
+    justify-content: space-between;
+}
+#gameslist div h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.gameimage {
+    border-radius: 5%;
+    margin-right: 10px;
+}
+.rows div h4 {
+    margin:0;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.rows {
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: clip;
+}
+#footer {
+    width:100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+ul#footer {
+    height: 60px;
+}
+.footerlinks {
+    margin: 2vw 3vh;
+    color: #bdbebe;
+    font-weight: 500;
+    height: 10px;
+}
+hr {
+    width: 80%;
+    align-self: center;
+    margin-bottom: 30px;
+}
+.game-text {
+    display: flex;
+    justify-content: flex-start;
+    height: 22px;
+    align-items: center;
+}
+.game-text span {
+    opacity: 70%;
+    font-weight: 500;
+    font-size: 12px;
+}
